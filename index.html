@@ -1,0 +1,25 @@
+---
+layout: default
+title: Blog
+---
+
+{% for post in site.posts %}
+  <div class="post-meta span-6 append-1"> 
+    <p class="large bottom"> 
+      Post <sup><span class="small">#</span></sup>{{ forloop.index }}
+    </p> 
+    <p class="bottom"> 
+      <em>{{ post.date }}</em> 
+    </p> 
+    <p class="small"> 
+      <a href="/posts/7-gruyere#comments">0 comments</a> 
+    </p> 
+  </div> 
+  
+  <div class="span-17 last"> 
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
+
+    <p>A small teaser here........</p> 
+    <hr class="space" /> 
+  </div> 
+{% endfor %}
