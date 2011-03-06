@@ -1,7 +1,6 @@
 # Ellis Berner
 
 > Study the falsehoods a man tells others and you'll discover how he intends to profit from them. Study the falsehoods a man tells himself and you'll discover how others will profit from him.<br />
-> ~ Anonymous
 
 ## About
 
@@ -21,7 +20,7 @@ The actual content of the articles is licensed under Creative Commons. The code 
 
 Basically, if you're going to redistribute a blog post, just make sure to link back. If you'd like to publish the content, that's fine too, just please keep the licensing information in.
  
-### APIs not used
+## APIs not used
 
 * `<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/themes/black-tie/jquery-ui.css" media="screen" rel="stylesheet" type="text/css" />`
 * `<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script>`
