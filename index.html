@@ -6,7 +6,7 @@ title: Blog
 {% for post in site.posts %}
   <div class="post-meta span-6 append-1"> 
     <p class="large bottom"> 
-      Post <sup><span class="small">#</span></sup>{{ forloop.index }}
+      Post <sup><span class="small">#</span></sup>{{ forloop.length - index0 }}
     </p> 
     <p class="bottom"> 
       <em>{{ post.date | date_to_string }}</em> 
