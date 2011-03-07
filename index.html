@@ -9,7 +9,7 @@ title: Blog
       Post <sup><span class="small">#</span></sup>{{ forloop.index }}
     </p> 
     <p class="bottom"> 
-      <em>{{ post.date }}</em> 
+      <em>{{ post.date | date_to_string }}</em> 
     </p> 
   </div> 
   
