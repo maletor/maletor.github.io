@@ -17,7 +17,7 @@ p.tweet{overflow:hidden;background-color:#eee;padding:1em;margin:0;}
 .tweet .tweet_time a:focus, .tweet a:focus, .tweet a:hover, .tweet .tweet_time a:hover{color:#1bb9ec;}
 .tweet .tweet_list, .query .tweet_list{list-style-type:none;padding:0;}
 form em{font-weight:bold;color:#f00;}
-#footer{-moz-box-shadow:5px -5px 5px #ccc;-webkit-box-shadow:5px -5px 5px #ccc;box-shadow:5px -5px 5px #ccc;}
+#footer{background:#333;-moz-box-shadow:5px -5px 5px #ccc;-webkit-box-shadow:5px -5px 5px #ccc;box-shadow:5px -5px 5px #ccc;}
 #footer h3{color:#ddd;}
 #footer p{color:#ddd;}
 #footer a{color:#fff;}
