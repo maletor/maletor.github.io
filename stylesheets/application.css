@@ -1,7 +1,8 @@
-@font-face{font-family: Aubrey;src: url('/fonts/aubrey.eot');src:url('/fonts/aubrey?iefix')format('eot'),url('/fonts/aubrey.woff')format('woff'),url('/fonts/aubrey.ttf')format('truetype'),url('/fonts/aubrey.svg#webfont6dIL5BYo')format('svg');font-weight:normal;font-style:normal;}
-@font-face {font-family: DroidSans;src: url('droidsans.eot');src: url('droidsans.eot?iefix') format('eot'),url('droidsans.woff') format('woff'),url('droidsans.ttf') format('truetype'),url('droidsans.svg#webfontw7zqO19G') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:Aubrey;src:url('/fonts/aubrey.eot');src:url('/fonts/aubrey?iefix')format('eot'),url('/fonts/aubrey.woff')format('woff'),url('/fonts/aubrey.ttf')format('truetype'),url('/fonts/aubrey.svg#webfont6dIL5BYo')format('svg');font-weight:normal;font-style:normal;}
+@font-face {font-family:DroidSans;src:url('droidsans.eot');src: url('droidsans.eot?iefix') format('eot'),url('droidsans.woff')format('woff'),url('droidsans.ttf')format('truetype'),url('droidsans.svg#webfontw7zqO19G')format('svg');font-weight:normal;font-style:normal;}
 body{border-top:#333 solid 5px;}
 #header h1{font-family: Aubrey;font-size:4em;}
+#text-area{font-family:DroidSans;}
 .send{background-color:#1e1e1e;color:#fff;width:100px;height:40px;cursor:pointer;}
 .send:hover, .send:focus{background-color:#eee;color:#1e1e1e;}
 .errorExplanation, .fieldWithErrors{padding:.8em;margin-bottom:1em;border:2px solid #FBC2C4;background:#FBE3E4;color:#8a1f11;}
