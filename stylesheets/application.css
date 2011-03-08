@@ -9,16 +9,11 @@ ul.border-list li{border-bottom:1px solid #ddd;padding:1em;}
 #navigation a{font-size:2em;color:#111;text-decoration:none;}
 #navigation a:active, #navigation a:hover{color:#666;}
 .post-meta{text-align:right;}
-form em{font-weight:bold;color:#f00;}
-#elsewhere{text-align:right;}
 #footer{background:#111;-moz-box-shadow:0 -3px 15px #666;-webkit-box-shadow:0 -3px 15px #666;box-shadow:0 -3px 15px #666;}
+#elsewhere{text-align:right;}
 #footer h3{color:#eee;}
 #footer p{color:#ddd;}
-#footer a{color:#eee;}
-#footer a:hover, #footer a:focus{color:#ddd;}
 #footer .copyright p{text-transform:uppercase;text-align:right;}
-#footer .copyright a{color:#ab3b3c;text-decoration:none;}
-#footer .copyright a:hover, #footer .copyright a:focus{color:#ddd;}
 .highlight{background:#fff;}
 .highlight .c{color:#998;font-style:italic;}
 .highlight .err{color:#a61717;background-color:#e3d2d2;}
