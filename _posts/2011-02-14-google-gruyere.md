@@ -1,3 +1,8 @@
+---
+layout: post
+title: Google Gruyere
+---
+
 # Google Gruyere
 
 _February 14, 2011_

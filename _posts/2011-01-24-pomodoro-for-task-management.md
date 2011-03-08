@@ -1,3 +1,8 @@
+---
+layout: post
+title: Pomodoro for Task Management
+---
+
 # Pomodoro for Task Management
 
 _January 24, 2011_
