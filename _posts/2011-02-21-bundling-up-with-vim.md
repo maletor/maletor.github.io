@@ -35,12 +35,12 @@ And bash autocompletion for git is just icing on the cake. It works for:
 Finally, here is a list of some of the plugins I use every day. And since they are just clones from a GitHub repository, updating them is as easy as a fast forward. You can read more in depth about these from their respective wiki pages and the manuals included with them.
 * pathogen - keeps all these plugins organized in the .vim/bundle directory (as opposed to some twelve odd directories)
 * ack - like grep, but designed with large code repositories in mind (you can find out more at their website)
-* nerdcommenter – 'nuff said
-* nerdtree – visual file browser
-* snipmate – akin to textmate's style of autocompletion
-* syntastic – provides a quickfix list when you save any file that has syntax errors
-* vim-endwise – figures out where an end needs to go and puts it there
-* vim-fugitive – git wrapper
-* vim-ragtag – shortcuts for a clunky ERB syntax
-* vim-supertab – smart, super smart autocompletion
-* vim-surround – surrounds text with html tags or ruby blocks or basically whatever you want
+* nerdcommenter - 'nuff said
+* nerdtree - visual file browser
+* snipmate - akin to textmate's style of autocompletion
+* syntastic - provides a quickfix list when you save any file that has syntax errors
+* vim-endwise - figures out where an end needs to go and puts it there
+* vim-fugitive - git wrapper
+* vim-ragtag - shortcuts for a clunky ERB syntax
+* vim-supertab - smart, super smart autocompletion
+* vim-surround - surrounds text with html tags or ruby blocks or basically whatever you want
