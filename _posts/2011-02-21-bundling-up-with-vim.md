@@ -12,10 +12,12 @@ With vim-rails, I can switch between an action and its view or test with only tw
 Recently, I’ve discovered a wrapper for git known as vim-fugitive. Using another simple workflow, I can generate a quick fix list of the result of git status.
 
 Once that buffer is generated I can use
+{% highlight bash_session %}
     D
     :q
     Ctrl-w
     Ctrl-k
+{% endhighlight %}
 
 You can repeat that for every staged file until everything looks good. Then I can choose to stage it for a commit with `-` on the filename in the buffer.
 After everything is staged, I can commit with `C`, enter my haiku, and it is done.
