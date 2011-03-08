@@ -12,7 +12,7 @@ With vim-rails, I can switch between an action and its view or test with only tw
 Recently, I’ve discovered a wrapper for git known as vim-fugitive. Using another simple workflow, I can generate a quick fix list of the result of git status.
 
 Once that buffer is generated I can use
-{% highlight bash_session %}
+{% highlight bash linenos %}
     D
     :q
     Ctrl-w
