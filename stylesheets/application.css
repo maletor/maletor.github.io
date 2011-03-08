@@ -19,6 +19,7 @@ ul.border-list li {border-bottom:1px solid #ddd;padding:1em;}
 #navigation ul {text-align:right;}
 #navigation a {font-size:2em;color:#111;text-decoration:none;}
 #navigation a:active, #navigation a:hover {color:#666;}
+#navigation span {color:#be3030;}
 .post-meta {text-align:right;}
 #footer {background:#111;-moz-box-shadow:0 -3px 15px #666;-webkit-box-shadow:0 -3px 15px #666;box-shadow:0 -3px 15px #666;}
 #elsewhere {text-align:right;}
