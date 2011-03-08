@@ -13,10 +13,10 @@ Recently, I’ve discovered a wrapper for git known as vim-fugitive. Using anoth
 
 Once that buffer is generated I can use
 {% highlight bash linenos %}
-    D
-    :q
-    Ctrl-w
-    Ctrl-k
+D
+q
+Ctrl-w
+Ctrl-k
 {% endhighlight %}
 
 You can repeat that for every staged file until everything looks good. Then I can choose to stage it for a commit with `-` on the filename in the buffer.
