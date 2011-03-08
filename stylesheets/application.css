@@ -24,6 +24,7 @@ ul.border-list li {border-bottom:1px solid #ddd;padding:1em;}
 #footer h3 {color:#eee;}
 #footer p {color:#ddd;}
 #footer .copyright p {text-transform:uppercase;text-align:right;}
+#footer .copyright a {text-decoration:none;}
 
 /* font.css */
 @font-face {font-family:Aubrey;src:url('/fonts/aubrey.eot');src:url('/fonts/aubrey?iefix')format('eot'),url('/fonts/aubrey.woff')format('woff'),url('/fonts/aubrey.ttf')format('truetype'),url('/fonts/aubrey.svg#webfont6dIL5BYo')format('svg');font-weight:normal;font-style:normal;}
