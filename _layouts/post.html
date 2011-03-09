@@ -2,6 +2,9 @@
 layout: default
 ---
 
-<div class="span-17 prepend-7 last">
+<div class="span-7">
+	{{ post.date | date_to_string }}
+</div>
+<div class="span-17 last">
 	{{ content }}
 </div>
