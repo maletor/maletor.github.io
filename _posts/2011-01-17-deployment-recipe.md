@@ -3,6 +3,8 @@ layout: post
 title: Deployment Recipe
 ---
 
+# Deployment Recipe
+
 It is important to remember to split up the web server and the app server. We can do this by setting up NGINX as a front end reverse proxy and using Unicorn, the new kid on the block, for serving up HTTP.
 
 For the stack I use Ubuntu 9.10 with 4 terabytes in a RAID 5, making an effective 3 terabytes. NGINX, Unicorn and Rails run on top of this. If I were getting 2 - 300 requests per minute I would probably need some kind of process monitoring framework such as God. It is also important to host your assets, javascripts, stylesheets, images, on a server different from the one you run your application on. A good solution for this is Amazon S3 or Slicehost. This is per Yahoo's exhaustive list of best practices. With this in place we should be scalable, speedy, and secure.

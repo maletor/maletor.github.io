@@ -3,8 +3,7 @@ layout: post
 title: Bundling Up With Vim
 ---
 
-# {{ page.title }}
-#### February 21, 2011
+# Bundling Up With Vim
 
 For my text editor I use vim. And with it I use a number of bundles to help simplify my life. Integrating with the editor saves time, requires less keystrokes and generally just makes it easier to process data.
 With vim-rails, I can switch between an action and its view or test with only two keystrokes. Also, I can cherry pick tests to run and have a quick fix list in a buffer for when they break.

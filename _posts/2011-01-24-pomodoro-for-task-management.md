@@ -5,8 +5,6 @@ title: Pomodoro for Task Management
 
 # Pomodoro for Task Management
 
-_January 24, 2011_
-
 Have a hard time staying focused? The Pomodoro Technique by Francesco Cirillo is an option that might help you become more productive. This technique works well for those who feel anxiety when thinking about deadlines.
 
 The technique shifts time away from stressful work by breaking up the job into manageable pieces. The Pomodoro web site offers a free download of the book that explains all of this in detail. We can accomplish this with minimal tools and just five steps to help the mind focus better and get things done.
