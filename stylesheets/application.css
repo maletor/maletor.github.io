@@ -10,10 +10,11 @@
 
 /* application.css */
 body {border-top:#333 solid 5px;}
-#header h1 a {text-decoration:none;font-family:'Permanent Marker';font-size:1.4em;}
+p {font-family: 'Droid Sans', arial, serif;}
+#header h1 a {text-decoration:none;font-family:'Permanent Marker', arial, serif;font-size:1.4em;}
 ul.list {list-style:none;padding:0;margin:0;}
 ul.border-list li {border-bottom:1px solid #ddd;padding:1em;}
-#navigation {font-family:Raleway;}
+#navigation {font-family:Ralewayyyyyy;}
 #navigation ul {text-align:right;}
 #navigation a {font-size:2em;color:#111;text-decoration:none;}
 #navigation a:focus, #navigation a:hover {color:#09f;}
