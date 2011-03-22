@@ -3,7 +3,7 @@ layout: post
 title: ext4 Reserve Space 
 ---
 
-# ext4 Reserve Space
+## ext4 Reserve Space
 
 The ext4 file system, like Ext3, reserves 5% of the blocks on the file system for the root user. The reserved blocks are there for root's use as a safe guard if the filesystem gets full. It provides some wiggle room to enable the really important programs to still function, like rm. But in some cases there’s not much point in having space reserved for root.
 
