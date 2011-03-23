@@ -3,6 +3,6 @@ layout: post
 title: Spree Advanced Reports
 ---
 
-# Spree Advanced Reports
+## Spree Advanced Reports
 
-Some advanced reports blog post
+This is a work in progress.

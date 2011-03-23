@@ -5,9 +5,9 @@ title: ext4 Reserve Space
 
 ## ext4 Reserve Space
 
-The ext4 file system, like Ext3, reserves 5% of the blocks on the file system for the root user. The reserved blocks are there for root's use as a safe guard if the filesystem gets full. It provides some wiggle room to enable the really important programs to still function, like rm. But in some cases there’s not much point in having space reserved for root.
+The [ext4](http://en.wikipedia.org/wiki/Ext4) file system, like [ext3](http://en.wikipedia.org/wiki/Ext3), reserves 5% of the blocks on the file system for the root user. The reserved blocks are there for root's use as a safe guard if the filesystem gets full. It provides some wiggle room to enable the really important programs to still function, like rm. But in some cases there’s not much point in having space reserved for root.
 
-I’ve recently upgraded my workstation with a 4TB internal RAID 5 array for data storage (music, videos, photos, etc.) My OS boots from a 64GB OCZ Vertex. For my 4TB array I want the maximum available storage and was interested to see what effect removing the reserved space would have.
+I’ve recently upgraded my workstation with a 4TB internal [RAID 5](http://en.wikipedia.org/wiki/RAID) array for data storage (music, videos, photos, etc.) My OS boots from a 64GB OCZ Vertex. For my 4TB array I want the maximum available storage and was interested to see what effect removing the reserved space would have.
 
 First I made the ext4 file system, mounted it and queried how much space was available.
 
