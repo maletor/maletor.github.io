@@ -3,19 +3,34 @@ layout: default
 title: Blog
 ---
 
-{% for post in site.posts %}
-  <div class="post-meta span-6 append-1"> 
-    <p class="large bottom"> 
-      Post <sup><span class="small">#</span></sup>{{ forloop.rindex }}
-    </p> 
-    <p class="bottom"> 
-      <em>{{ post.date | date_to_string }}</em> 
-    </p> 
-  </div> 
-  
-  <div class="span-17 last"> 
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
+{% paginator.page %}
 
-    <hr class="space" /> 
-  </div> 
+{% for post in paginator.posts %}
+  <div class="post-meta span-6 append-1">
+    <p class="large bottom">
+      Post <sup><span class="small">#</span></sup>{{ forloop.rindex }}
+    </p>
+    <p class="bottom">
+      <em>{{ post.date | date_to_string }}</em>
+    </p>
+  </div>
+
+  <div class="span-17 last">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
+    <hr class="space" />
+  </div>
 {% endfor %}
+
+{% if paginator.previous_page %}
+  <div>
+      {% if paginator.previous_page == 1 %}
+        <a class="pagination newer" href="/" title="newer"> Newer &rarr;</a>
+      {% else %}
+        <a class="pagination older" href="/page{{ paginator.previous_page }}" title="newer"> Newer &rarr;</a>
+      {% endif %}
+    {% endif %}
+    {% if paginator.next_page %}
+      <a class="pagination" href="/page{{ paginator.next_page }}" title="older">&larr; Older</a>
+  </div>
+{% endif %}
