@@ -31,20 +31,20 @@ upstream unicorn {
 }
 
 server {
-	listen 80;
-	server_name ellisberner.com;
-	root /var/www/ellisberner/public;
-	access_log /var/log/nginx/ellisberner.access.log;
+  listen 80;
+  server_name ellisberner.com;
+  root /var/www/ellisberner/public;
+  access_log /var/log/nginx/ellisberner.access.log;
 
-	location / {
-        	try_files $uri @unicorn;
-	}
+  location / {
+    try_files $uri @unicorn;
+  }
 
-	location @unicorn {
-		proxy_pass http://unicorn;
-		proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-		proxy_set_header Host $host;
-		proxy_redirect off;
-	}
+  location @unicorn {
+    proxy_pass http://unicorn;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header Host $host;
+    proxy_redirect off;
+  }
 }
 {% endhighlight %}
