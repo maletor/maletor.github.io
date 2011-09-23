@@ -4,7 +4,7 @@
 
 ## About
 
-This repository hosts the HTML, CSS, images, and posts for [ellisberner.com](http://ellisberner.com). Ellis Berner publishes weekly tips for those who want to learn more about web technology, Ruby on Rails, or linux in general. The blog started as a personal portfolio but grew to include some of my writings. If you find issues with the content, just send [me a message on GitHub](http://github.com/maletor) or email me at [eberner@gmail.com](mailto://eberner@gmail.com).
+This repository hosts the HTML, CSS, images, and posts for [ellisberner.com](http://ellisberner.com). Ellis Berner publishes weekly tips for those who want to learn more about web technology, Ruby on Rails, or linux in general. The blog started as a personal portfolio but grew to include some of my writings. If you find issues with the content, just send [me a message on GitHub](http://github.com/maletor).
 
 ## Publishing
 
