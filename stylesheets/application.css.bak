@@ -25,6 +25,14 @@ ul.border-list li {border-bottom:1px solid #ddd;padding:1em;}
 #footer p {color:#ddd;}
 #footer .copyright p {text-transform:uppercase;text-align:right;}
 #footer .copyright a {text-decoration:none;}
+.badges {background-image:url(/images/badges.png);background-color:transparent;background-repeat:no-repeat;}
+.badges a {display:block;height:30px;width:30px;}
+#facebook_badge {height:30px;width:30px;background-position:-0px -0px;}
+#flickr_badge {height:30px;width:30px;background-position:-30px -0px;}
+#linkedin_badge {height:30px;width:30px;background-position:-60px -0px;}
+#github_badge {height:30px;width:30px;background-position:-90px -0px;}
+#lastfm_badge {height:30px;width:30px;background-position:-120px -0px;}
+#instagram_badge {height:30px;width:30px;background-position:-150px -0px;}
 
 /* syntax.css */
 .highlight {background:#fff;}
