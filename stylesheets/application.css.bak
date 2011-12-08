@@ -19,7 +19,7 @@ ul.border-list li {border-bottom:1px solid #ddd;padding:1em;}
 #navigation a:focus, #navigation a:hover {color:#09f;}
 #navigation span {color:#be3030;}
 .post-meta {text-align:right;}
-#footer {background:#111;-moz-box-shadow: 0 0 5px #666;-webkit-box-shadow: 0 0 5px#666;box-shadow: 0 0 5px #666;}
+#footer {background:#111;-moz-box-shadow: 0 0 15px #666;-webkit-box-shadow: 0 0 15px#666;box-shadow: 0 0 15px #666;}
 #elsewhere {text-align:right;}
 #footer h3 {color:#eee;}
 #footer p {color:#ddd;}
