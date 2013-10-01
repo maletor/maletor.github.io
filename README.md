@@ -13,9 +13,3 @@ This blog is generated with the [Jekyll](http://github.com/mojombo/jekyll) engin
 ## Contributing
 
 If you have ideas about new posts, layouts, or what have you, fork away!
-
-## Licensing
-
-The actual content of the articles is licensed under Creative Commons. The code that this project consists of is licensed under MIT.
-
-Basically, if you're going to redistribute a blog post, just make sure to link back. If you'd like to publish the content, that's fine too, just please keep the licensing information in.
