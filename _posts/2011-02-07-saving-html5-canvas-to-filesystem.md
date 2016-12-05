@@ -5,4 +5,4 @@ title: Saving HTML5 To Filesystem
 
 ## Saving HTML5 To Filesystem
 
-In a word: [toDataUrl()](http://www.w3.org/TR/html5/the-canvas-element.html)
+In a word: [toDataUrl()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL)
