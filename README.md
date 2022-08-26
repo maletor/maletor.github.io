@@ -5,7 +5,7 @@
 
 ## About
 
-This repository hosts the HTML, CSS, images, and posts for [www.ellisberner.com](http://www.ellisberner.com).
+This repository hosts the HTML, CSS, images, and posts for [ellisberner.com](https://ellisberner.com).
 The blog started as a personal portfolio but grew to include some of my writings.
 
 ## Publishing
